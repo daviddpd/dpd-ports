@@ -1,0 +1,27 @@
+--- www/plugins/ona_nmap_scans/nmap_scan_cron.orig	2018-03-21 18:39:21 UTC
++++ www/plugins/ona_nmap_scans/nmap_scan_cron
+@@ -52,8 +52,9 @@
+ ##
+ ##############################################################################
+ # Get the config info
+-[ ! -r /etc/onabase ] && echo "[$0] ERROR: Unable to read /etc/onabase." && exit 1
+-ONABASE=`cat /etc/onabase`
++#[ ! -r /etc/onabase ] && echo "[$0] ERROR: Unable to read /etc/onabase." && exit 1
++PREFIX="/usr/local"
++ONABASE="${PREFIX}/share/ona"
+ 
+ # Define the default sql script to use
+ SQLFILE=nmap_subnets_only_yes.sql
+@@ -105,9 +106,10 @@ done
+ NMAPCOMMAND=/usr/bin/nmap
+ 
+ # Path to the DCM commandline utility
+-DCM_CMD="$ONABASE/bin/dcm.pl"
++DCM_CMD="${PREFIX}/bin/dcm.pl"
+ 
+-NMAP_OUTPUT_DIR="$ONABASE/www/local/nmap_scans/subnets"
++#NMAP_OUTPUT_DIR="$ONABASE/www/local/nmap_scans/subnets"
++NMAP_OUTPUT_DIR="/var/db/ona/nmap_scans/subnets"
+ 
+ if [ ! -d $NMAP_OUTPUT_DIR ]
+ then

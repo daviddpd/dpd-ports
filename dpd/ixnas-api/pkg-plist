@@ -1,0 +1,6 @@
+libexec/ixnas-api/destroy-zvol.py
+libexec/ixnas-api/create-zvol.py
+libexec/ixnas-api/requestCheck.py
+libexec/ixnas-api/destroy-iscsi.py
+libexec/ixnas-api/create-iscsi.py
+etc/ixnas-api.sample.ini

@@ -1,0 +1,5 @@
+bin/dcm.pl
+etc/dcm.conf.sample
+share/dcm/README.md
+share/dcm/dcm-completion
+share/dcm/dcm.conf

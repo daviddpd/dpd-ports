@@ -1,0 +1,10 @@
+bin/build_isc_dhcp
+share/ona/www/plugins/build_isc_dhcp/README.md
+share/ona/www/plugins/build_isc_dhcp/build_dhcpd
+share/ona/www/plugins/build_isc_dhcp/build_dhcpd.conf.sample
+share/ona/www/plugins/build_isc_dhcp/build_dhcpd.conf.sample.orig
+share/ona/www/plugins/build_isc_dhcp/build_isc_dhcp.inc.php
+share/ona/www/plugins/build_isc_dhcp/install.php
+share/ona/www/plugins/build_isc_dhcp/install.sql
+share/ona/www/plugins/build_isc_dhcp/plugin_info.php
+@dir share/ona/www/plugins/build_isc_dhcp/build_isc_dhcp

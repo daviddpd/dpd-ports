@@ -1,0 +1,9 @@
+bin/build_bind
+etc/build_bind.conf.sample
+share/ona/www/plugins/build_bind/README.md
+share/ona/www/plugins/build_bind/build_bind
+share/ona/www/plugins/build_bind/build_bind.conf.sample
+share/ona/www/plugins/build_bind/build_bind.inc.php
+share/ona/www/plugins/build_bind/install.php
+share/ona/www/plugins/build_bind/install.sql
+share/ona/www/plugins/build_bind/plugin_info.php
